@@ -1,0 +1,7 @@
+pandas
+openpyxl
+transformers
+torch
+datasets
+fastapi
+uvicorn

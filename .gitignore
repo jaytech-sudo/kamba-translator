@@ -1,0 +1,18 @@
+__pycache__/
+*.pkl
+*.h5
+*.keras
+*.xlsx
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore model and tokenizer files
+*.h5
+*.keras
+*.pkl
+
+# Ignore IDE settings
+.vscode/
