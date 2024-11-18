@@ -96,4 +96,7 @@ def translate():
     })
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Get the port from the environment or default to 5000 for local testing
+    port = int(os.environ.get('PORT', 5000))
+    # Run the app on all interfaces (0.0.0.0) so that Render can access it
+    app.run(debug=True, host='0.0.0.0', port=port)
